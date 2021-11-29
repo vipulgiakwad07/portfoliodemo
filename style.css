@@ -1,0 +1,46 @@
+.section-1 {
+    background: #3DCFd3;
+    width:40%;
+}
+
+.section-2{
+   
+    width: 60%;
+    background:gray;
+}
+
+.pdfbutton {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+    align-items: center;
+    background: black;
+    
+}
+
+.button-secondary{
+
+    padding-left: 2rem;
+    display:block;
+
+}
+
+
+#cv-formx{
+  display: none;
+}
+
+#cv-template{
+  
+    display: none;
+}
+
+.myimage{
+  
+    width: 100px;
+   
+}
+
+.background{
+    background-color: aqua;
+}

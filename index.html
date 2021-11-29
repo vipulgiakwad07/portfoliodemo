@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <link rel="shortcut icon" href="Untitled1 (1).ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+    <title>Portfolio</title>
+</head>
+
+
+<body>
+
+   
+
+<div class="container" >
+    <h1 class="text-center my-2">Please Fill following Form</h1>
+  
+   
+
+    <div class="row" id="cv-form">
+       
+
+           <!--Personal Infomation-->
+
+        <section  class="col-md-4 section-1">
+        <div class="col-md-6">
+          <h3>Personl Infomation</h3>
+
+                <!--Name field-->
+
+          <div class="form-group">
+              <label for="nameField">Your Name</label>
+              <input type="text" class="form-control" id="nameField" 
+              placeholder="Enter your name">
+          </div>
+
+
+                   <!--contact field-->
+
+          <div class="form-group mt-2">
+            <label for="contactl">Contact No</label>
+            <input type="text" class="form-control" id="contactField"
+            placeholder="Enter Contact No">
+        </div>
+
+
+       <!--Email field-->
+
+       <div class="form-group mt-2">
+        <label for="emaillabel">Email ID</label>
+        <input type="text" class="form-control" id="emailField"
+        placeholder="Enter Email Id">
+    </div>
+
+
+
+
+        <!--Adress field-->
+
+        <div class="form-group mt-2">
+            <label for="AdressFieldl">Address</label>
+            <textarea type="text" class="form-control" id="AdressField"
+            placeholder="Enter your Adress">
+            </textarea>
+        </div>
+
+
+        <p class="text-secondary mt-1">Importent link</p>
+
+        <div class="form-group mt-2">
+            <label for="facebookField">Facebook</label>
+            <input type="text" class="form-control" id="fbField"
+            placeholder="Enter your Facebook link">
+        </div>
+
+
+
+        <div class="form-group mt-2">
+            <label for="instagramField">Instagram</label>
+            <input type="text" class="form-control" id="instaField"
+            placeholder="Enter your Instagram link">
+        </div>
+
+
+        <div class="form-group mt-2">
+            <label for="linkedinField">linkedIn</label>
+            <input type="text" class="form-control" id="linkedtField"
+            placeholder="Enter your linkedin link">
+        </div>
+
+
+        <div class="form-group mt-2">
+            <label for="printrestField">Printrest</label>
+            <input type="text" class="form-control" id="priField"
+            placeholder="Enter your printrest link">
+        </div>
+
+        <div class="form-group mt-2">
+            <label for="webField">Web site</label>
+            <input type="url" class="form-control " id="websField"
+            placeholder="Enter your website link">
+        </div>
+        </div>
+    </section>
+
+
+    <section class="section-2 col-md-8">
+
+           <!--Profetional block-->
+
+        <div >
+            <h3>Prfessional Infomation</h3>
+
+            <div class="form-group mt-2">
+                <label for="ProfetionField">Profession</label>
+                <textarea type="text" class="form-control" id="profetionField"
+                placeholder="Enter your Profetion">
+                </textarea>
+            </div>
+
+
+                  <!--Qualification-->
+            
+            <div class="form-group mt-2" id="Qua">
+                <label for="qualificationField">Qualification</label>
+                <textarea type="text"  id="quaField"
+                placeholder="Enter your Qualification"  class="form-control qualiField">
+                </textarea>
+
+              <!-- <div id="qualificationaddid">
+                    <button onclick="addNewQuField()"
+                     class="btn btn-primary ">
+                         Add Qualification</button></div>
+                -->
+
+            </div>
+            
+            <!--experiance-->
+            
+            <div class="form-group mt-2" id="ex">
+                <label for="experianceFieldL">Experiance</label>
+                <textarea type="text"  id="experianceField"
+                placeholder="Enter your Experiance" class="form-control wexField">
+                </textarea>
+
+                <div id="experienceaddid" style="margin-top: 0.3rem;">
+                    <button onclick="addNewEField()" 
+                    class="btn btn-primary"> Add Experiance
+                    </button>
+                </div>
+            </div>
+
+
+
+              <!--Skill
+
+                             <div class="form-group mt-2" id="sk">
+                               <label for="skillsField">Skills</label>
+                               <textarea type="text" class="form-control" id="skillsField"
+                               placeholder="Enter your Skills"  class="form-control skillField">
+                               </textarea>
+
+                             <div id="skilleaddid">
+                    <button onclick="addNewSKField()"  class="btn btn-primary ">
+                         Add skill</button>
+                </div>
+ 
+
+                              -->
+
+                
+                
+            </div>
+
+        </div>
+    </section>
+    </div>
+
+     <!--Generate Portfolio
+
+    <div class="pdfbutton text-center"> 
+        <button onclick="generatPortfolio()" 
+        class="btn btn-success ">Generate Portfolio</button> </div> 
+        
+            <button onclick="generatPortfolio()" class="text-center m-a btn btn-primary"
+            class="btn btn-secondary" style="margin-left: 30%; margin-right: 30%; margin-top: 1rem;  ">Generate Portfolio</button> 
+       -->
+            <button onclick="generatPortfolio()" class=" btn btn-primary "
+            class="btn btn-secondary" style="margin-top: 2rem;  position: absolute; left: 50%; -ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%); ">Generate Portfolio</button> 
+         
+            
+s
+
+
+   <!--cv-template-->
+
+
+    <section >
+        <div class="container" id="cv-template">
+         <div class="row">
+
+            <!--first col-->
+
+             <div class="col-md-4 text-center by-4 background">
+                 <img src="https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg"
+                  alt="" class="=img-fluid myimage"/>
+
+                 <div class="conatainer">
+                     <p id="nameT">Vipul Gaikwad</p>
+                     <P id="" >+9187698279</P>
+                     <p id="AddrT" >sector indeia</p>
+
+                     <hr>
+                     
+                     <p><a id="fbT" href="#1">https://www.Facebook.com</a></p>
+
+                     <p><a id="instaT" href="#1">https://www.Instagram.com</a></p>
+        
+                     <p><a id="linkedT" href="#1">https://www.printrest.com</a></p>
+
+                     <p ><a  href="#1">"https://www.website.com"</a></p>
+
+                     
+                     <p><a id="priT" href="#1">https://www.printrest.com</a></p>
+                   
+
+                   
+                 </div>
+
+             </div>
+              
+             <!--second col-->
+
+             <div class="col-md-8 py-4">
+                 <h1 id="nameT2" class="text-center" style="font-weight: 980"> 
+                     Vipul Gaikwad</h1>
+
+                     <div class="card mt-4">
+                         <div class="card-header background">
+                             <h3>Objective</h3>
+                         </div>
+                         <div class="card-body">
+                             <p id="objectiveT">
+                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                 Iusto a nam nobis quis. Harum alias deserunt perspiciatis, 
+                                 nobis vero laboriosam impedit sunt, natus ipsa soluta fugiat 
+                                 similique cupiditate, delectus provident?
+                             </p>
+                         </div>
+                     </div>
+
+                        <!--workexperince-->
+
+                    <div class="card mt-4">
+                        <div class="card-header background">
+                            <h3>Qualification</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul id="aqT">
+                                <li>Lorem ipsum dolor sit amet consectetur</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                     
+                      <!--workexperince-->
+
+                      <div class="card mt-4">
+                        <div class="card-header background">
+                            <h3>workexperince</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul id="weT">
+                                <li>Lorem ipsum dolor sit amet consectetur</li>
+                                <li>Lorem ipsum dolor sit amet consectetur</li>
+                                <li>Lorem ipsum dolor sit amet consectetur</li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+             </div>
+              
+            <!--Export pdf button-->
+
+            <div class="text-center m-auto btn-primary"> 
+                <button onclick="Expdf()" class="btn btn-primary">Export to PDF</button> </div>
+           
+        
+         </div>
+
+        </div>
+    </section>
+
+  <!--<!DOCTYPE html-->
+
+  <div class="site-main-wrapper" >
+    <button class="hamberger">
+        <img src="./images/hamberger.png" alt="">
+    </button>
+    <div class="mobile-nav">
+        <button class="times"><img src="./images/times.png" alt=""></button>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li> 
+            <li><a href="#">Services</a></li> 
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Blog</a></li> 
+          </ul>
+    </div>  
+
+  <header>
+      <div class="container">
+      <nav id="main-nav" class="flex item-center justify-between">
+          <div class="left flex items-center ">
+              <div class="brnading">
+                  <img src="./images/logo.svg" alt="">
+              </div>
+              <div>
+                  <a href="">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#services">Services</a>
+                  <a href="#work">Work</a>
+                  <a href="#blog">Blog</a>
+               </div>
+          </div>
+
+          <div class="right">
+            <a href="#contact">    <button class="btn btn-primary">Contact</button></a>
+          </div>
+      </nav>
+
+      <div class="hero flex items-center justify-between">
+          <div class="left flex-1 flex justify-center">
+              <img src="./images/man.png" alt="">
+          </div>
+          <div class="right flex-1">
+              <h6 id="nameT3">Johnathan Vics</h6>
+              <h1>I'm a Createive <span id="profeionT">Designer</span></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel corporis suscipit tenetur cupiditate sunt iusto modi aliquid, fuga molestias quidem nesciunt at pariatur deserunt numquam, laborum libero aperiam veniam atque.</p>
+              <div>
+                  <button class="btn btn-secondary">Downlod CV</button>
+              </div>
+          </div>
+      </div>
+
+   </div>
+  </header>
+
+  <section id="about" class="about ">
+      <div class="container flex items-center about-inner-wrap">
+          <div class="flex-1">
+              <img class="about-me-img" src="./images/man-2.png" alt="">
+          </div>
+          <div class="flex-1 right">
+              <h1>About <span>Me</span></h1>
+              <h3>Hello! I'm  <span id="nameT4" style="color: var(--primary);"> Johanathan Vics</span> My Qualification</h3>
+              <ul id="aqT1" style="color: var(--primary);">
+                <li>Lorem ipsum dolor sit amet consectetur</li>
+                </ul>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi illo asperiores, libero magnam amet impedit veritatis sapiente sequi rem modi sunt quis porro quae consectetur delectus qui dolorum odit voluptatum?</p>
+              <div class="social">
+                  <a href="" id="imgW"><img onclick="websTf()" src="./images/website.png" alt="webssT"  ></a>
+                  <a href=""><img src="./images/facebook.png" alt=""></a>
+                  <a href=""><img src="./images/twitter.png" alt=""></a>
+                  <a href=""><img src="./images/pintrest.png" alt=""></a>
+                  <a href=""><img src="./images/instagram.png" alt=""></a>
+              </div>
+           </div>
+      </div>
+  </section>
+    
+  <!--Services section-->
+
+  <section id="services" class="services">
+      <div class="container ">
+          <h1 class="section-heading"><span>Our </span>Services</h1>
+          <p>We provide high stander clean website for your business solutions</p>
+          <div class="card-wraper">
+              <div class="card">
+                  <img src="./images/brush.png" alt="">
+                  <h2>Graphic Design</h2>
+                  <p>There are many variations of passage of but the majority have suffered alteration in some form.</p>
+              </div>
+              <div class="card">
+               <img src="./images/code.png" alt="">
+               <h2>Graphic Design</h2>
+               <p>There are many variations of passage of but the majority have suffered alteration in some form.</p>
+           </div>
+           <div class="card">
+               <img src="./images/bag.png" alt="">
+               <h2>Graphic Design</h2>
+               <p>There are many variations of passage of but the majority have suffered alteration in some form.</p>
+           </div>
+           <div class="card">
+               <img src="./images/desktop.png" alt="">
+               <h2>Graphic Design</h2>
+               <p>There are many variations of passage of but the majority have suffered alteration in some form.</p>
+           </div>
+           <div class="card">
+               <img src="./images/media.png" alt="">
+               <h2>Graphic Design</h2>
+               <p>There are many variations of passage of but the majority have suffered alteration in some form.</p>
+           </div>
+           <div class="card">
+               <img src="./images/phone.png" alt="">
+               <h2>Graphic Design</h2>
+               <p>There are many variations of passage of but the majority have suffered alteration in some form.</p>
+           </div>
+          </div>
+      </div>
+   </section>
+   
+   <section class="freelancer">
+       <h1>I Am Available For Freelancer.</h1>
+       <p>We provide high standar clean website for your business</p>
+       <button class="btn btn-primary">Downlod CV</button>
+   </section>
+   
+   <section class="reviews">
+       <div class="container">
+           <h1 class="section-heading"><span>Our </span>Client</h1>
+           <p>We provide high standar clean website for your business solutions</p>
+            
+           <div class="slider">
+           <div class="slide">
+               <img src="./images/lady.png" alt="">
+               <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"</p>
+               <span>-John doel, Company ABC </span>
+           </div>
+           <div class="slide">
+               <img src="./images/lady.png" alt="">
+               <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"</p>
+               <span>-John doel, Company ABC </span>
+           </div>
+           <div class="slide">
+               <img src="./images/lady.png" alt="">
+               <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"</p>
+               <span>-John doel, Company ABC </span>
+           </div>
+           <div class="slide">
+               <img src="./images/lady.png" alt="">
+               <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"</p>
+               <span>-John doel, Company ABC </span>
+           </div>
+       </div>
+           
+          <div class="slider-dots"></div> 
+           
+         
+       </div>
+   </section>
+
+   <!--workexperince section-->
+
+   <section id="work" class="work">
+       <div class="container">
+           <h1 class="section-heading"><span>Our </span>Work</h1>
+            <p>We provide high standar clean website for your Business solutions</p>
+
+            <ul id="weT1" style="color: var(--primary);">
+                <li>Lorem ipsum dolor sit amet consectetur</li>
+                </ul>
+           
+            <div class="card-wrapper">
+               <div class="card">
+                   <div class="overlay">
+                       <span>Category</span>
+                       <a href="#">Web development</a>
+                   </div>
+
+                   <img src="./images/ph-2.png" alt="">
+               </div>
+               <div class="card">
+                      
+                   <div class="overlay">
+                       <span>Category</span>
+                       <a href="#">Web Services</a>
+                   </div>
+
+                   <img src="./images/ph-1.png" alt="">
+               </div>
+               <div class="card">
+                   <div class="overlay">
+                       <span>Category</span>
+                       <a href="#">Mobile App Design</a>
+                   </div>
+
+                   <img src="./images/ph-3.png" alt="">
+               </div>
+               <div class="card">
+                   <div class="overlay">
+                       <span>Category</span>
+                       <a href="#">Deta Analysis</a>
+                   </div>
+                   <img src="./images/ph-3.png" alt="">
+               </div>
+               <div class="card">
+                   <div class="overlay">
+                       <span>Category</span>
+                       <a href="#">System Design</a>
+                   </div>
+                   <img src="./images/ph-2.png" alt="">
+               </div>
+               <div class="card">
+                   <div class="overlay">
+                       <span>Category</span>
+                       <a href="#">Aws Azure Services</a>
+                   </div>
+                   <img src="./images/ph-1.png" alt="">
+               </div>
+               
+           </div>
+           </div>
+   </section>
+                      <!--ourBlogSection-->
+                 
+   <section id="blog" class="blog">
+       <div class="conatiner">
+           <h1 class="section-heading"><span>Our </span>Blog</h1>
+           <p>We provide high standar clean website for your business solutions</p>
+            
+           <div class="card-wrapper">
+           <div class="card">
+               <div class="img-wrapper">
+                   <img src="./images/article-ph-1.png" alt="">
+               </div>
+               
+               <div class="card-content">
+                   <a href="#">
+                       <h1>Occusamus et iusto odio</h1>
+                   </a>
+                   <span>Nov 5, 2021</span>
+                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+               <a href="Read More">Read More</a>
+               </div>
+               
+           </div>
+       
+    
+        
+       
+           <div class="card">
+               <div class="img-wrapper">
+                   <img src="./images/article-ph-2.png" alt="">
+               </div>
+               
+               <div class="card-content">
+                   <a href="#">
+                       <h1>Occusamus et iusto odio</h1>
+                   </a>
+                   <span>Nov 5, 2021</span>
+                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+               <a href="Read More">Read More</a>
+               </div>
+               
+           </div>
+       
+          
+     
+
+           <div class="card">
+               <div class="img-wrapper">
+                   <img src="./images/article-ph-3.png" alt="">
+               </div>
+               
+               <div class="card-content">
+                   <a href="#">
+                       <h1>Occusamus et iusto odio</h1>
+                   </a>
+                   <span>Nov 5, 2021</span>
+                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+               <a href="Read More">Read More</a>
+               </div>
+               
+          
+       </div>
+     
+ </div>
+</div>
+
+     <!--  </div> -->
+
+   </section>
+
+   <section class="contact" >
+
+       <div class="container" id="contact">
+           <h1 class="section-heading">Contact <span>Us</span></h1>
+           <p>We provide high standar clean website for your business solutions</p>
+          
+         <div class="card-wrapper">
+             <div class="card">
+                 <img src="./images/phone-2.png" alt="">
+                 <h1>Call Us On</h1>
+                 <h6 id="contnoT">+61 7853793687</h6>
+             </div>
+             <div class="card">
+               <img src="./images/msg.png" alt="">
+               <h1>Email Us At</h1>
+               <h6 id="emailT">support@companyname.com</h6>
+           </div>
+           <div class="card">
+               <img src="./images/map.png" alt="">
+               <h1 >Visit Office</h1>
+               <h6 id="addrsT"> the South San Francisco Bay Area of California</h6>
+           </div>
+         </div>
+
+        
+       </div>
+   </section>
+
+
+    <footer>
+        <img class="footer-logo" src="./images/logo-2.png" alt="">
+        <div class="footer-social">
+            <a href="#"> <img src="./images/website.png" alt="">
+            <a href="#"> <img src="./images/facebook.png" alt=""></a>
+            <a href="#"> <img src="./images/twitter.png" alt=""></a>
+            <a href="#"> <img src="./images/pintrest.png" alt=""></a>
+            <a href="#"> <img src="./images/instagram.png" alt=""></a>
+        </div>
+        <div class="copyright">
+            Copyright 2021 @ Name PSD Template. All Right Reserved.
+        </div>
+    </footer>
+   <!--<!DOCTYPE html-->
+  
+</div>
+
+</div>
+ 
+
+    <script src="script.js"></script>
+
+   <!--<!DOCTYPE html-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    
+    
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+<!--<!DOCTYPE html-->
+
+</body>
+</html>
+
+
+
+
+
+
